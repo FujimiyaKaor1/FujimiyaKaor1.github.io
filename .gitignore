@@ -17,3 +17,4 @@ public/atom.xml
 
 # valaxy rss
 public/feed.json
+package-lock.json
