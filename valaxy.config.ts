@@ -3,6 +3,10 @@ import type { ThemeConfig } from 'valaxy-theme-yun'
 
 const safelist = [
   'i-ri-home-line',
+  'i-ri-github-line',
+  'i-ri-rss-line',
+  'i-ri-bilibili-line',
+  'i-ri-mail-line',
 ]
 
 export default defineValaxyConfig<ThemeConfig>({
@@ -27,6 +31,14 @@ export default defineValaxyConfig<ThemeConfig>({
       enable: true,
       url: '/yanghu.jpg',
       opacity: 0.3,
+    },
+
+    say: {
+      enable: true,
+      hitokoto: {
+        enable: true,
+        api: 'https://v1.hitokoto.cn',
+      },
     },
 
     pages: [
