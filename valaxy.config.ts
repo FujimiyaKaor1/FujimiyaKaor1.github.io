@@ -29,7 +29,7 @@ export default defineValaxyConfig<ThemeConfig>({
 
     bg_image: {
       enable: true,
-      url: '/yanghu.jpg',
+      url: '/houhu.jpg',
       opacity: 0.3,
     },
 
